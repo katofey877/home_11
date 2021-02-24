@@ -1,0 +1,185 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* &display=swap */
+/* ________________Обнуление_________________ */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	font-family: "Gilroy";
+	font-weight: 500;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+button {
+	cursor: pointer;
+	background-color: transparent;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+/* ___________блок header___________________________ */
+.who__link{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	background: url('../img/Group.png') center no-repeat;
+}
+.header {
+	border: 20px solid blue;
+}
+.header__container {
+}
+.container {
+}
+.header__row {
+}
+.header__logo {
+}
+.header__link {
+}
+.header__img {
+}
+.header__nav {
+}
+.header__list {
+}
+.header__items {
+}
+.header__item {
+}
+.header__checkin {
+}
+.header__btn {
+}
+.header__btn_right {
+}
+.work {
+	border: 20px solid blue;
+}
+.work__header {
+}
+.work__mintitle {
+}
+.min-title {
+}
+.min-title__info {
+}
+.work__title {
+}
+.work__span {
+}
+.work__text {
+}
+.link-list {
+	border: 20px solid blue;
+}
+.link-list__column {
+}
+.link-list__items {
+}
+.link-list__text {
+}
+.link-list__link {
+}
+.link-list__column_right {
+}
+.who {
+	border: 20px solid blue;
+}
+.who__top {
+}
+.who__title {
+}
+.who__subtitel {
+}
+.who__bottom {
+}
+.who__links {
+}
+.who__link {
+}
+.who__link_first {
+}
+.who__link_last {
+}
+.page {
+	border: 20px solid blue;
+}
+.page__top {
+}
+.page__link {
+}
+.page__image {
+}
+.page__bottom {
+}
+.page__titel {
+}
+.page__text {
+}
+.info {
+	border: 20px solid blue;
+}
+.info__content {
+}
+.info__title {
+}
+.info__text {
+}
